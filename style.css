@@ -1,0 +1,10 @@
+h1{
+    color: rgb(223, 28, 28);
+}
+div{
+    position: relative;
+    color: red;
+    width: 100px;
+    height: 100px;
+    background-color: rgba(0, 255, 68, 0.16);
+}
