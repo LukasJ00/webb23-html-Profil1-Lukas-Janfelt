@@ -1,4 +1,13 @@
 
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%);
+}
+
+
 h1 {
     color: rgb(223, 28, 28); /* färg på stor rubrik  */
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -11,8 +20,14 @@ h3 {
     color: blueviolet; /*färg på minsta rubrik*/
     font-family:Verdana, Tahoma, sans-serif ;
 }
+#citat{
+    color:white
+}
+p{
+    color:white
+}
 
-div {
+#faktabox{
     position: relative;
     color: red;
     width: 100px;
@@ -37,9 +52,23 @@ div {
     margin-left: 20px;
     margin-right: 20px;
 }
+#Förnamn{margin-left: 3rem;
+    border-radius: 2rem;
 
+}
+#Efternamn{ margin-left: 2.5rem;
+    border-radius: 2rem;
 
-img{
+}
+#emailAddress{
+    margin-left: 1.1rem;
+    border-radius: 2rem;
+}
+#tele{border-radius: 2rem;
+
+}
+
+#img{
     border-radius: 1rem;
     
 }
@@ -49,6 +78,10 @@ img{
 
 }
 
+#facebook{
+    margin-left: 5%;
+}
+
 a{
     text-decoration: none;
     border-radius: 20px;
@@ -56,15 +89,27 @@ a{
     font-size: 1.5rem;
     
 }
-#facebook{
-    margin-left: 5%;
-
+#porträtt{
+    margin-top: 100px;
+}
+#Förnamn{
+    margin-top: 100px;
 }
 
 a:hover{
     color:#0066ff;
-    /*background-color: black; */
+    background-color: rgb(16, 222, 188);
 }
 a:hover::after{
     color: blue;
 }
+ 
+
+
+
+
+
+
+
+
+

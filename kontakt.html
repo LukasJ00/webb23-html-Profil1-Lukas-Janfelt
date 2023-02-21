@@ -8,23 +8,34 @@
         <link rel="stylesheet" href="/style.css" />
     </head>
     <body>
+       
+    <div id="form">    
         <h3>Kontaktformulär</h3>
         <!-- Ett formulär för att kontakta mig. -->
+      <form>
         <label for="Förnamn">Förnamn:</label>
         <input type="text" id="Förnamn" />
         <br /><br />
         <label for="Efternamn">Efternamn:</label>
         <input type="text" id="Efternamn" />
         <br /><br />
+        <label for="email">Email address:</label>
+        <input type="email" name="emailAddress" id="emailAddress">
+        <br><br>
         <label for="Nummber">Telefonnummber:</label>
-        <input type="text" id="telenummber" />
+        <input type="text" id="tele" />
         <br /><br />
-        <input type="submit" value="submit" />
+        <label for="Date">Datum:</label>
+        <input type="date" name="date" id="date">
+        <br><br>
+        <input type="submit" value="submit" id="submit"/>
+    </form>
+    </div>   
         <br /><br />
 
         <!--länkar till dem två andra sidorna-->
-        <a href="/index.html" id="startsida">Home</a> |
-        <a href="/inspo.html" id="inspo">Insperation</a>
+        <a href="/index.html" id="startsida">Startsida</a> |
+        <a href="/inspo.html" id="inspo">Insperationssida</a>
         <footer>
             <a href="https://www.instagram.com/lukasjanfelt/?next=%2F" target="_blank">
                 <img src="/insta.png" alt="insta" id="instagram" height="100vmax" width="150vmax" >
@@ -32,7 +43,7 @@
              </a>
     
              <a href="https://www.facebook.com/lukas.janfelt/" target="_blank">
-                <img src="/facebook.png" alt="Lukas facebook" id="facebook" height="100vmax" width="100vmax">
+                <img src="/FB.jpg" alt="Lukas facebook" id="facebook" height="80vmax" width="80vmax">
              </a>
 
     
