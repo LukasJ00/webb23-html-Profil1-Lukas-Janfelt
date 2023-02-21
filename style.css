@@ -1,11 +1,11 @@
 h1{
-    color: rgb(223, 28, 28);
+    color: rgb(223, 28, 28);  /* färg på stor rubrik  */
 }
 h2{
-    color: blue;
+    color: blue;    /* färg på mellan rubrik */
 }
 h3{
-    color: blueviolet;
+    color: blueviolet;  /*färg på minsta rubrik*/
 }
 
 
