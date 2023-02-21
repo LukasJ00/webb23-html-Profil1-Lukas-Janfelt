@@ -1,18 +1,70 @@
-h1{
-    color: rgb(223, 28, 28);  /* färg på stor rubrik  */
+
+h1 {
+    color: rgb(223, 28, 28); /* färg på stor rubrik  */
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-h2{
-    color: blue;    /* färg på mellan rubrik */
+h2 {
+    color: blue; /* färg på mellan rubrik */
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-h3{
-    color: blueviolet;  /*färg på minsta rubrik*/
+h3 {
+    color: blueviolet; /*färg på minsta rubrik*/
+    font-family:Verdana, Tahoma, sans-serif ;
 }
 
-
-div{
+div {
     position: relative;
     color: red;
     width: 100px;
     height: 100px;
-    background-color: rgba(0, 255, 68, 0.16);
+    border-radius: 1rem;
+    background-color: rgba(63, 44, 133, 0.2);
+}
+
+
+#startsida{
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+#inspo{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#kontakt{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+img{
+    border-radius: 1rem;
+    
+}
+#instagram{
+    margin-left: 1vmax;
+
+
+}
+
+a{
+    text-decoration: none;
+    border-radius: 20px;
+    font-family: cursive;
+    font-size: 1.5rem;
+    
+}
+#facebook{
+    margin-left: 5%;
+
+}
+
+a:hover{
+    color:#0066ff;
+    /*background-color: black; */
+}
+a:hover::after{
+    color: blue;
 }
