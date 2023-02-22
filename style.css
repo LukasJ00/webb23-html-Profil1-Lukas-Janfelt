@@ -1,13 +1,9 @@
 * {
-    padding: 0; /*alla element */
+    padding: 0;   /*alla element */
     margin: 0;
 }
 body {
-    background: linear-gradient(
-        90deg,
-        #1cb5e0 0%,
-        #000851 100%
-    ); /*bakgrundsfärg*/
+    background: linear-gradient(90deg, #1cb5e0 0%, #000851 100%); /*bakgrundsfärg*/
 }
 
 h1 {
@@ -24,18 +20,23 @@ h3 {
     color: blueviolet; /*färg på minsta rubrik*/
     font-family: Verdana, Tahoma, sans-serif;
 }
+.rubrik {
+    margin-top: 100px; /*rubriker margin*/
+}
 #citat {
     color: white; /*färg på citat*/
 }
 p {
     color: white; /*färg på paragraf*/
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left; 
 }
 
 #faktabox {
     position: relative;
-    color: red;
-    width: 100px; /*layout på fakta boxen*/
-    height: 100px;
+    color: rgb(223, 28, 28);
+    width: 150px; /*layout på fakta boxen*/
+    height: 25px;
     border-radius: 1rem;
     background-color: rgba(63, 44, 133, 0.2);
 }
@@ -57,8 +58,6 @@ p {
 #förnamn {
     margin-left: 3rem; /*förnamn box */
     border-radius: 2rem;
-    margin-top: 100px; 
-
 }
 #efternamn {
     margin-left: 2.5rem; /*efternman box */
@@ -76,54 +75,53 @@ p {
     border-radius: 2rem;
 }
 #submit {
-    margin-left: 7.5rem;  /*submit box*/
+    margin-left: 7.5rem; /*submit box*/
     border-radius: 2rem;
 }
 
-p{
-    text-align: left;   /* test*/
+#labels {
+    float: left;
+    width: 150px; /*label*/
 }
-
-#labels{
-    float:left;  
-    width:20%;              /*label*/
-}                       
-#labels label{
-    float:right;            /*label-label*/
+#labels label {
+    float: right; /*label-label*/
     margin: 4%;
 }
 #form-input {
-    float:left;             /*input*/
-width:19%
-
+    float: left; /*input*/
+    width: 150px;
 }
-#form-input input{          /*input-input*/
- margin: 4%;
+#form-input input {
+     margin: 4%; /*input-input*/
 }
-
 
 #instagram {
     margin-bottom: 20;
     margin-left: 1vmax; /*instagram bild*/
+    height: 10vmax;
+    width: 15vmax;
 }
 
 #facebook {
     margin-bottom: 1.5%;
-    margin-left: 1%;   /*facebook bild */
+    margin-left: 1%; /*facebook bild */
     border-radius: 1rem;
+    height: 7.5vmax;
+    width: 7.5vmax;
 }
 
 a {
     text-decoration: none;
-    border-radius: 20px;  /* a taggar*/
+    border-radius: 20px; /* a taggar*/
     font-family: cursive;
     font-size: 1.5rem;
 }
 #porträtt {
-    margin-top: 100px;  /*bild på Lukas*/
+    /*bild på Lukas*/
     border-radius: 1rem;
+    height: 20vmax;
+    width: 20vmax;
 }
-
 
 a:hover {
     color: #0066ff;
@@ -133,5 +131,3 @@ a:hover {
 a:hover::after {
     color: rgb(255, 0, 68); /*hover after*/
 }
-
-
