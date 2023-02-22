@@ -1,115 +1,139 @@
-
-*{
-    padding: 0;
+* {
+    padding: 0; /*alla element */
     margin: 0;
 }
-body{
-    background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%);
+body {
+    background: linear-gradient(
+        90deg,
+        #1cb5e0 0%,
+        #000851 100%
+    ); /*bakgrundsfärg*/
 }
 
-
 h1 {
-    color: rgb(223, 28, 28); /* färg på stor rubrik  */
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(223, 28, 28); /* färg på stor rubrik */
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 h2 {
     color: blue; /* färg på mellan rubrik */
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
 }
 h3 {
     color: blueviolet; /*färg på minsta rubrik*/
-    font-family:Verdana, Tahoma, sans-serif ;
+    font-family: Verdana, Tahoma, sans-serif;
 }
-#citat{
-    color:white
+#citat {
+    color: white; /*färg på citat*/
 }
-p{
-    color:white
+p {
+    color: white; /*färg på paragraf*/
 }
 
-#faktabox{
+#faktabox {
     position: relative;
     color: red;
-    width: 100px;
+    width: 100px; /*layout på fakta boxen*/
     height: 100px;
     border-radius: 1rem;
     background-color: rgba(63, 44, 133, 0.2);
 }
 
-
-#startsida{
-    margin-left: 20px;
-    margin-right: 20px;
-
-}
-
-#inspo{
-    margin-left: 20px;
+#startsida {
+    margin-left: 20px; /*startsida layout*/
     margin-right: 20px;
 }
 
-#kontakt{
-    margin-left: 20px;
+#inspo {
+    margin-left: 20px; /*insperationssida layout*/
     margin-right: 20px;
 }
-#Förnamn{margin-left: 3rem;
+
+#kontakt {
+    margin-left: 20px; /*kontaktsida box */
+    margin-right: 20px;
+}
+#förnamn {
+    margin-left: 3rem; /*förnamn box */
     border-radius: 2rem;
+    margin-top: 100px; 
 
 }
-#Efternamn{ margin-left: 2.5rem;
-    border-radius: 2rem;
-
-}
-#emailAddress{
-    margin-left: 1.1rem;
+#efternamn {
+    margin-left: 2.5rem; /*efternman box */
     border-radius: 2rem;
 }
-#tele{border-radius: 2rem;
-
+#emailAddress {
+    margin-left: 1.1rem; /*email box */
+    border-radius: 2rem;
+}
+#tele {
+    border-radius: 2rem; /*telefon box */
+}
+#date {
+    margin-left: 4.1rem; /*datum box */
+    border-radius: 2rem;
+}
+#submit {
+    margin-left: 7.5rem;  /*submit box*/
+    border-radius: 2rem;
 }
 
-#img{
+p{
+    text-align: left;   /* test*/
+}
+
+#labels{
+    float:left;  
+    width:20%;              /*label*/
+}                       
+#labels label{
+    float:right;            /*label-label*/
+    margin: 4%;
+}
+#form-input {
+    float:left;             /*input*/
+width:19%
+
+}
+#form-input input{          /*input-input*/
+ margin: 4%;
+}
+
+
+#instagram {
+    margin-bottom: 20;
+    margin-left: 1vmax; /*instagram bild*/
+}
+
+#facebook {
+    margin-bottom: 1.5%;
+    margin-left: 1%;   /*facebook bild */
     border-radius: 1rem;
-    
-}
-#instagram{
-    margin-left: 1vmax;
-
-
 }
 
-#facebook{
-    margin-left: 5%;
-}
-
-a{
+a {
     text-decoration: none;
-    border-radius: 20px;
+    border-radius: 20px;  /* a taggar*/
     font-family: cursive;
     font-size: 1.5rem;
+}
+#porträtt {
+    margin-top: 100px;  /*bild på Lukas*/
+    border-radius: 1rem;
+}
+
+
+a:hover {
+    color: #0066ff;
+    background-color: rgb(16, 222, 188); /*hover tag*/
+}
+
+a:hover::after {
+    color: rgb(255, 0, 68); /*hover after*/
+}
+
+.insta{
     
 }
-#porträtt{
-    margin-top: 100px;
-}
-#Förnamn{
-    margin-top: 100px;
-}
-
-a:hover{
-    color:#0066ff;
-    background-color: rgb(16, 222, 188);
-}
-a:hover::after{
-    color: blue;
-}
- 
-
-
-
-
-
-
-
-
-
