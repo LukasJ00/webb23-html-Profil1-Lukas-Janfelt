@@ -1,13 +1,17 @@
 * {
-    padding: 0;   /*alla element */
+    padding: 0; /*alla element */
     margin: 0;
 }
 body {
-    background: linear-gradient(90deg, #1cb5e0 0%, #000851 100%); /*bakgrundsfärg*/
+    background: linear-gradient(
+        90deg,
+        #1cb5e0 0%,
+        #000851 100%
+    ); /*bakgrundsfärg*/
 }
 
 h1 {
-    color: rgb(223, 28, 28); /* färg på stor rubrik */
+    color: rgb(105, 230, 16); /* färg på stor rubrik */
     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
         "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
@@ -29,16 +33,16 @@ h3 {
 p {
     color: white; /*färg på paragraf*/
     font-family: Arial, Helvetica, sans-serif;
-    text-align: left; 
+    text-align: left;
 }
 
 #faktabox {
     position: relative;
-    color: rgb(223, 28, 28);
+    color: rgb(165, 211, 227);
     width: 150px; /*layout på fakta boxen*/
     height: 25px;
-    border-radius: 1rem;
-    background-color: rgba(63, 44, 133, 0.2);
+    border-radius: 0.5rem;
+    background-color: rgba(248, 31, 6, 0.6);
 }
 
 #startsida {
@@ -92,7 +96,7 @@ p {
     width: 150px;
 }
 #form-input input {
-     margin: 4%; /*input-input*/
+    margin: 4%; /*input-input*/
 }
 
 #instagram {
@@ -112,9 +116,11 @@ p {
 
 a {
     text-decoration: none;
-    border-radius: 20px; /* a taggar*/
+    border-radius: 0.5rem; /* a taggar*/
     font-family: cursive;
     font-size: 1.5rem;
+    color:#eff26c
+    
 }
 #porträtt {
     /*bild på Lukas*/
@@ -125,9 +131,7 @@ a {
 
 a:hover {
     color: #0066ff;
-    background-color: rgb(16, 222, 188); /*hover tag*/
+    background-color: rgb(166, 231, 188); /*hover tag*/
 }
 
-a:hover::after {
-    color: rgb(255, 0, 68); /*hover after*/
-}
+
